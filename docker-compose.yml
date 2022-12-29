@@ -10,4 +10,4 @@ services:
       - SMF_CONFIG=info@on-it.design:dor.yashar@gmail.com
       #;box2@on-it.design:mybox@gmail.com;box1@domain2.com:mybox@gmail.com
     volumes:
-      - /opt/projects/mail_forwarder/volumes/logs:/var/log/postfix
+      - /home/ubuntu/Desktop/ofirmailforwarder/logs:/var/log/postfix

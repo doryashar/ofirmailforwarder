@@ -8,6 +8,9 @@ services:
       - "25:25"
     environment:
       - SMF_CONFIG=info@on-it.design:dor.yashar@gmail.com
-      #;box2@on-it.design:mybox@gmail.com;box1@domain2.com:mybox@gmail.com
     volumes:
       - /home/ubuntu/Desktop/ofirmailforwarder/logs:/var/log/postfix
+
+
+
+#;box2@on-it.design:mybox@gmail.com;box1@domain2.com:mybox@gmail.com
